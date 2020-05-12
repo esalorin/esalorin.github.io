@@ -1,3 +1,31 @@
-body	{
-		font-family: 'Courier New', Courier, monospace;
-		}
+body			{
+				font-family: 'Courier New', Courier, monospace;
+				}
+#topmenu		{
+				width:100%;
+				height:auto;
+				border: 0;
+				border-bottom: 1px solid darkgray;
+				opacity: 0.5;
+				background-color: white;
+				border-style: solid;
+				padding: 5;
+				margin: 5;
+				}
+#menutable		{
+
+				width: 100%;
+				}
+.menutext		{
+				text-align: center;
+				font-size: 22px;
+				font-weight: bold;
+				}
+a:link,
+a:visited		{
+				color: black;
+				text-decoration: none;
+				}
+a:hover			{
+				color: darkgray;
+				}
