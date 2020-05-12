@@ -5,6 +5,7 @@ body			{
 				width:100%;
 				height:auto;
 				border: 0;
+				position: fixed;
 				border-bottom: 1px solid darkgray;
 				opacity: 0.5;
 				background-color: white;
