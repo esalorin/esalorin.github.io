@@ -18,11 +18,10 @@ body			{
 .menutext		{
 				text-align: center;
 				font-size: 22px;
-				font-weight: bold;
 				}
 a:link,
 a:visited		{
-				color: rgb(68, 72, 75);
+				color: black;
 				text-decoration: none;
 				}
 a:hover			{
