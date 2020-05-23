@@ -11,7 +11,7 @@ body			{
 				position: fixed;
 				padding-bottom: 5px;
 				background-color: rgba(255, 255, 255, 0.8);
-				overflow: auto;
+				overflow: hidden;
 				display: flex;
 				z-index: 3;
 				}
@@ -23,6 +23,7 @@ body			{
 				bottom: 5px;
 				background: rgba(255, 255, 255, 0.8);
 				overflow: hidden;
+				z-index: 3;
 				}
 .contactmenu a	{
 				float: right;
@@ -33,8 +34,8 @@ body			{
 						width: auto;
 					}
 #stage			{
-				width: 40vw;
-				height: 40vw;
+				width: 250px;
+				height: 250px;
 				margin-top: 10%;
 				perspective: 1200px;
 				perspective-origin: 50% 50%;
@@ -47,6 +48,7 @@ body			{
 				border-radius: 50%;
 				background: radial-gradient(circle at 50% 120%, rgb(217, 253, 251), #e2fcff 10%, #efd4fd 80%, #ffd3fd 100%);
 				animation: roll 5s infinite;
+				z-index: 1;
 				}
 .ball .shadow {
 				position: absolute;
@@ -67,6 +69,7 @@ body			{
 				background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0.055) 58%);
 				filter: blur(5px);
 				animation: roll 5s infinite;
+				z-index: 2;
 				}
 .link		{
 				position: relative;
