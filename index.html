@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 
-	<title> Eenakatariina </title>
+	<title> Eenakatariina - Portfolio </title>
 	<meta name="description" content="Portfolio about projects I have done in Hive Helsinki" />
 	<meta http-equiv="Content-type" content= "text/html"; charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -10,18 +10,71 @@
 
 </HEAD>
 <BODY>
-	<h1 class="projectheader">Eena Salorinta</h1>
-	<div class="contactmenu">
-			<a href="https://fi.linkedin.com/in/eena-salorinta-3a35b3198" target="_blank"><img src="linkedin-26.png" alt="linkedin"></a>
-			<a href="https://github.com/esalorin" target="_blank"><img src="GitHub-Mark-32px.png" alt="github"></a>
-	</div>
-	<br/><br/>
-	<div id="stage" class="link">
-		<a href="projects.html"><figure class="ball"><span class="shadow"></span><p class="balltext">Projects</p></figure></a>
-	</div>
-	<div id="stage2" class="link">
-		<a href="aboutme.html"><figure class="ball2"><span class="shadow"></span><p class="balltext">About me</p></figure></a>
-	</div>
-	
+		<div id="topmenu" class="menutext">
+				<div class="current">
+					<a href="https://www.eenakatariina.com/">Projects</a>
+				</div>
+				<div class="elem">
+					<a href="aboutme.html">About me</a>
+				</div>
+		</div>
+		<div class="contactmenu">
+				<a href="https://fi.linkedin.com/in/eena-salorinta-3a35b3198" target="_blank"><img src="content/linkedin-26.png" alt="linkedin"></a>
+				<a href="https://github.com/esalorin" target="_blank"><img src="content/GitHub-Mark-32px.png" alt="github"></a>
+		</div>
+		<div class="bgphoto">
+		<h1 class="white">Hi, I'm Eena.<br/> &nbsp;&nbsp;&nbsp;Welcome to my portfolio.</h1>
+			<p class="white">Here I'll tell you a bit about the projects I've done during my studies in Hive Helsinki.</p>
+			<p class="white">So far I have only school projects to show you but I'll add some own projects here too when the time comes.<br/>
+				All my school projects are done with <strong>C</strong>. That's the main language we use in Hive during the first 8 months. 
+			If you want to know more about Hive, go check 
+			<a id="hive" href="https://www.hive.fi/en" target="_blank">here</a>.
+			<br/>All the code, including my webpages, you can see in my Github.</p>
+		</div>
+		<div id="select" class="project">
+			<h1 class="projectheader">ft_select</h1>
+			<p>Language: <strong>C</strong></p>
+			<p>The goal of this project is to get familar with termcaps library and to create a user interface for a program launched on the terminal. <br />
+				You can move through the list of arguments using <strong>arrows</strong>, made selections with <strong>space</strong> key and erase 
+				the element from the list by pressing <strong>backspace</strong> or <strong>delete</strong>. When the selections are made you can
+				send the choises to the program with <strong>return</strong> key. You can exit from the selection list by perssing <strong>esc</strong>.</p>
+				<video  autoplay loop>
+					<source src="content/select.mov">
+					Your browser does not support the video tag.
+				</video>
+		</div>
+		<div class="project">
+			<h1 id="minishell" class="projectheader">minishell</h1>
+			<p>Language: <strong>C</strong></p>
+			<p>In this project I took my first step creating a shell. A mini-shell is capable of reading and evaluating simple user commands.<br /> Reading will involve 
+				lexical analysis and parsing of the command. Evaluation will involve searching for the corresponding binary on the machine and execute it, 
+				or execute the relevant code in the case of a “built-in” command in the shell.<br /> Builtins I have implemented are <strong>echo, cd, setenv, 
+				unsetenv, env</strong> and <strong>exit</strong>. The command lines are simple, no pipes, no redirections or any other advanced functions.</p>
+				<video  autoplay loop>
+					<source src="content/minishell.mov">
+					Your browser does not support the video tag.
+				</video>
+		</div>
+		<div class="project">
+			<h1 id="ls" class="projectheader">ft_ls</h1>
+			<p>info coming</p>
+		</div>
+		<div class="project">
+			<h1 id="printf" class="projectheader">ft_printf</h1>
+			<p>info coming</p>
+		</div>
+		<div class="project">
+			<h1 id="roger" class="projectheader">roger_skyline1</h1>
+			<p>info coming</p>
+		</div>
+		<div class="project">
+			<h1 id="fillit" class="projectheader">fillit</h1>
+			<p>info coming</p>
+		</div>
+		<div class="project">
+			<h1 id="libft" class="projectheader">libft</h1>
+			<p>info coming</p>
+		</div>
+		
 </BODY>
 </HTML>
