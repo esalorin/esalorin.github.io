@@ -149,6 +149,10 @@ body			{
 				color: white;
 				text-decoration: underline;
 				}
+#link			{
+				color: black;
+				text-decoration: underline;
+				}
 .balltext		{
 				margin-top: 40%;
 				}
@@ -184,7 +188,8 @@ body			{
 .project		{
 				background-color: rgb(255, 255, 255);
 				padding: 30px 30px 20px 30px;
-				margin: 20px;
+				margin: 30px;
+				margin-bottom: 45px;
 				box-shadow: 3px 3px 5px lightgrey;
 				}
 
