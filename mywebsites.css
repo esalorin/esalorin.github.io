@@ -188,8 +188,7 @@ body			{
 .project		{
 				background-color: rgb(255, 255, 255);
 				padding: 30px 30px 20px 30px;
-				margin: 30px;
-				margin-bottom: 45px;
+				margin: 30px 20px 45px 20px;
 				box-shadow: 3px 3px 5px lightgrey;
 				}
 
