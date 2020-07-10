@@ -1,8 +1,7 @@
 body			{
 				font-family: 'Courier New', Courier, monospace;
 				background-color: whitesmoke;
-				padding-left: 20px;
-				padding-right: 20px;
+				padding: 50px 20px 50px 20px;
 				}
 #topmenu		{
 				width:100%;
@@ -83,12 +82,12 @@ body			{
 				margin: auto;
 				padding: 100px 50px 90px 90px;
 				box-shadow: 3px 3px 5px rgb(102, 102, 102);
-				min-width: 550px;
 				max-width: 1200px;
 				background-image: url("content/mac.jpeg");
 				position: relative;
 				background-repeat: no-repeat;
 				background-size: cover;
+				animation: photo 1s ease-out forwards;
 				}
 .bgphoto::before	{
 				content: '';
@@ -106,7 +105,6 @@ body			{
 				background-size: cover;
 				height: 100%;
 				background: rgba(235, 235, 235, 0.7);
-				min-width: 550px;
 				position: relative;
 				max-width: 1200px;
 				}
@@ -115,16 +113,15 @@ body			{
 				font-size: calc(18px + 1vw);
 				position: relative;
 				font-weight: normal;
+				animation: name 2s forwards;
 				}
-.white			{
+.black			{
 				color: black;
-				
 				font-size: calc(8px + 1vw);
 				position: relative;
 				font-weight: normal;
 				}
 .projectheader	{
-				text-align: left;
 				font-size: calc(18px + 1vw);
 				font-weight: normal;
 				text-align: center;			
@@ -134,26 +131,77 @@ body			{
 				background-color: rgba(255, 255, 255, 0.9);
 				padding: 30px 30px 20px 30px;
 				max-width: 1200px;
-				min-width: 550px;
 				position: relative;
 				font-size: calc(8px + 1vw);
-				margin: 30px auto 45px auto;
+				margin: 30px auto 0px auto;
 				border: 1px solid whitesmoke;
-				box-shadow: 3px 3px 5px rgb(85, 85, 85);
+				box-shadow: 3px 3px 5px rgb(131, 131, 131);
 				}
 .project video	{
 				width: 100%;
 				height: auto;
 				}
-
-@keyframes roll {
-				0% {margin-top:0%; background-position: 0px}
-				50% {margin-top: 100%; background-position: 0px 800px;}
-				100% {margin-top:0%; background-position: 0px;}
+.myphoto		{
+				margin: 0px auto 20px auto;
+				padding: 10px 10px 10px 10px;
+				max-width: 1200px;
+				position: relative;
+				overflow: auto;
+				height: auto;
 				}
-@keyframes roll2 {
-				0% {margin-left:0%; background-position: 0px;}
-				50% {margin-left: 100%; background-position: -800px;}
-				75% {margin-left: 70%; background-position: -400px;}
-				100% {margin-left:0%; background-position: 0px;}
+.intro			{
+				font-size: calc(20px + 1vw);
+				font-weight: normal;
+				text-align: center;			
+				color: palevioletred;
+				animation: name 1s forwards;
+				}
+.biggerabout	{
+				color: black;
+				font-size: calc(12px + 1vw);
+				font-weight: normal;
+				}
+.student		{
+				font-size: calc(18px + 1vw);
+				font-weight: normal;
+				text-align: center;			
+				color: black;
+				animation: name 2s forwards;
+				}
+.aboutme		{
+				background-color: rgba(255, 255, 255, 0.7);
+				padding: 20px 20px 20px 20px;
+				margin-left: 20px;
+				margin-bottom: 10px;
+				text-align: justify;
+				width: 50%;
+				min-width: 200px;
+				float: right;
+				position: relative;
+				}
+#me				{
+				float: left;
+				width: 40%;
+				max-width: 400px;
+				animation: photo 1s ease-out forwards;
+				}
+.story			{
+				padding: 30px 30px 20px 30px;
+				margin: auto;
+				background-repeat: no-repeat;
+				background-size: cover;
+				text-align: justify;
+				height: 100%;
+				background: rgba(206, 206, 206, 0.7);
+				max-width: 1200px;
+				}
+
+@keyframes photo {
+				0% {opacity: 0; margin-top: -50%;}
+				100% {opacity: 1; margin-top: 0;}
+			}
+@keyframes name {
+				0% {opacity: 0;}
+				50% {opacity: 0;}
+				100% {opacity: 1;}
 				}
