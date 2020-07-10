@@ -87,7 +87,7 @@ body			{
 				position: relative;
 				background-repeat: no-repeat;
 				background-size: cover;
-				animation: mac 2s ease-out forwards;
+				animation: mac 1s ease-out forwards;
 				}
 .bgphoto::before	{
 				content: '';
@@ -113,7 +113,7 @@ body			{
 				font-size: calc(18px + 1vw);
 				position: relative;
 				font-weight: normal;
-				animation: name 2s forwards;
+				animation: name 1s forwards;
 				}
 .black			{
 				color: black;
