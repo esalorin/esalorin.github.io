@@ -87,7 +87,7 @@ body			{
 				position: relative;
 				background-repeat: no-repeat;
 				background-size: cover;
-				animation: photo 1s ease-out forwards;
+				animation: mac 2s ease-out forwards;
 				}
 .bgphoto::before	{
 				content: '';
@@ -199,6 +199,10 @@ body			{
 @keyframes photo {
 				0% {opacity: 0; margin-top: -50%;}
 				100% {opacity: 1; margin-top: 0;}
+			}
+@keyframes mac {
+				0% {opacity: 0;}
+				100% {opacity: 1;}
 			}
 @keyframes name {
 				0% {opacity: 0;}
