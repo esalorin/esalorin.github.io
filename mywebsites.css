@@ -198,11 +198,13 @@ body			{
 				max-width: 1200px;
 				}
 #mode	{
+				width: 40px;
+				height: 40px;
 				cursor: pointer;
 				float: left;
 				border-radius: 5%;
-				border-top:40px solid white;
-  				border-right:40px solid rgb(71, 71, 71);
+				background: rgb(75, 75, 75);
+  				background:linear-gradient(to bottom right,rgb(75, 75, 75) 50%,white 50%);
 				}
 
 @keyframes photo {
