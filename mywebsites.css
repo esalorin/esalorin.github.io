@@ -198,12 +198,11 @@ body			{
 				max-width: 1200px;
 				}
 #mode	{
-				width: 40px;
 				cursor: pointer;
 				float: left;
-				height: 40px;
 				border-radius: 5%;
-				background-color: rgb(245, 245, 245);
+				border-top:40px solid white;
+  				border-right:40px solid rgb(71, 71, 71);
 				}
 
 @keyframes photo {
