@@ -73,6 +73,9 @@ function changemode($dark) {
 		var elementExists = document.getElementById("student");
 		if (elementExists != null)
 			elementExists.style.color = "black";
+		var elementExists = document.getElementById("hive");
+		if (elementExists != null)
+			elementExists.style.color = "black";
 		var elementExists = document.getElementById("story");
 		if (elementExists != null)
 		{
@@ -106,6 +109,9 @@ function changemode($dark) {
 		for(var i = 0; fontcolor[i];i++)
 			fontcolor[i].style.color = "white";
 		var elementExists = document.getElementById("student");
+		if (elementExists != null)
+			elementExists.style.color = "white";
+		var elementExists = document.getElementById("hive");
 		if (elementExists != null)
 			elementExists.style.color = "white";
 		var elementExists = document.getElementById("story");
