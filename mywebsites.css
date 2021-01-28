@@ -204,7 +204,7 @@ body			{
 				float: left;
 				border-radius: 5%;
 				background: rgb(75, 75, 75);
-  				background:linear-gradient(to bottom right,rgb(75, 75, 75) 50%,white 50%);
+  				background:linear-gradient(to bottom right,rgb(75, 75, 75) 50%,rgb(226, 226, 226) 50%);
 				}
 
 @keyframes photo {
