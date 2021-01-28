@@ -29,6 +29,7 @@ body			{
 				}
 #contactmenu a	{
 				padding: 5px 5px 0px 5px;
+				float: right;
 				}
 #contactmenu a img	{
 						height: 25px;
@@ -199,6 +200,7 @@ body			{
 #mode	{
 				width: 40px;
 				cursor: pointer;
+				float: left;
 				height: 40px;
 				border-radius: 5%;
 				background-color: rgb(245, 245, 245);

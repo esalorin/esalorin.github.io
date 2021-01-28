@@ -52,10 +52,12 @@ function changemode($dark) {
 	if ($dark === false)
 	{
 		document.body.style.backgroundColor = "whitesmoke";
-		document.getElementById("topmenu").style.backgroundColor = "rgba(" + 255 + "," + 255 + "," + 255 + "," + 0.79 + ")";
-		document.getElementById("contactmenu").style.backgroundColor = "rgba(" + 255 + "," + 255 + "," + 255 + "," + 0.79 + ")";
+		document.getElementById("topmenu").style.backgroundColor = "rgba(" + 255 + "," + 255 + "," + 255 + "," + 0.8 + ")";
+		document.getElementById("contactmenu").style.backgroundColor = "rgba(" + 255 + "," + 255 + "," + 255 + "," + 0.8 + ")";
 		document.getElementById("mode").style.backgroundColor = "rgb(" + 30 + "," + 30 + "," + 30 + ")";
 		document.getElementById("elemlink").style.color = "black";
+		document.getElementById("linkedin").setAttribute('src', "content/linkedin-26.png");
+		document.getElementById("github").setAttribute('src', "content/GitHub-Mark-32px.png");
 		var elem = document.getElementsByClassName("link");
 		for(var i = 0; elem != null && elem[i];i++)
 			elem[i].style.color = "black";
@@ -85,10 +87,12 @@ function changemode($dark) {
 	else
 	{
 		document.body.style.backgroundColor = "rgb(" + 14 + "," + 14 + "," + 14 + ")";
-		document.getElementById("topmenu").style.backgroundColor = "rgba(" + 30 + "," + 30 + "," + 30 + "," + 0.79 + ")";
-		document.getElementById("contactmenu").style.backgroundColor = "rgba(" + 30 + "," + 30 + "," + 30 + "," + 0.79 + ")";
+		document.getElementById("topmenu").style.backgroundColor = "rgba(" + 30 + "," + 30 + "," + 30 + "," + 0.8 + ")";
+		document.getElementById("contactmenu").style.backgroundColor = "rgba(" + 30 + "," + 30 + "," + 30 + "," + 0.8 + ")";
 		document.getElementById("mode").style.backgroundColor = "whitesmoke";
 		document.getElementById("elemlink").style.color = "white";
+		document.getElementById("linkedin").setAttribute('src', "content/linkedin-24.png");
+		document.getElementById("github").setAttribute('src', "content/github-11-32.png");
 		var elem = document.getElementsByClassName("link");
 		for(var i = 0; elem != null && elem[i];i++)
 			elem[i].style.color = "white";
