@@ -7,26 +7,29 @@
 	<meta http-equiv="Content-type" content= "text/html"; charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<LINK REL="stylesheet" TYPE="text/css" HREF="mywebsites.css">
+	<script src="mode.js"></script>
 
 </HEAD>
-<BODY>
+<BODY onload="cookies()">
 		<div id="topmenu" class="menutext">
-				<div class="elem">
-					<a href="https://www.eenakatariina.com/">Projects</a>
+				<div id="elem">
+					<a id="elemlink" href="https://www.eenakatariina.com/">Projects</a>
 				</div>
 				<div class="current">
 					<a href="aboutme.html">About me</a>
 				</div>
 		</div>
-			<div class="contactmenu">
-					<a href="https://fi.linkedin.com/in/eena-salorinta-3a35b3198" target="_blank"><img src="content/linkedin-26.png" alt="linkedin"></a>
-					<a href="https://github.com/esalorin" target="_blank"><img src="content/GitHub-Mark-32px.png" alt="github"></a>
+			<div id="contactmenu">
+				<div id="mode" onclick="mode()">
+					</div>
+				<a href="https://fi.linkedin.com/in/eena-salorinta-3a35b3198" target="_blank"><img src="content/linkedin-26.png" alt="linkedin"></a>
+				<a href="https://github.com/esalorin" target="_blank"><img src="content/GitHub-Mark-32px.png" alt="github"></a>
 			</div>
 		<div class="myphoto">
-			<p class="intro"><img id="me" src="content/me.jpeg" alt="Photo of me"><br/><br/> Eena Salorinta<p class="student">Programming student</p></p>
+			<h1 class="intro"><img id="me" src="content/me.jpeg" alt="Photo of me"><br/><br/> Eena Salorinta<p id="student">Programming student</p></h1>
 		</div>
-			<div class="story">
-			<div class="aboutme">
+			<div id="story">
+			<div id="aboutme">
 				<p class="biggerabout"><strong>who:</strong> Eena Salorinta</p>
 				<p class="biggerabout"><strong>age:</strong> 23</p>
 				<p class="biggerabout"><strong>where:</strong> living in Kallio, Helsinki</p>
