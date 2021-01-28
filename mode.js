@@ -127,11 +127,7 @@ function changemode($dark) {
 }
 window.addEventListener('resize', function(){
 	var box = document.getElementById("aboutme");
-<<<<<<< HEAD
 	if (box != null && window.innerWidth <= 500)
-=======
-	if (box != null && window.innerWidth <= 480)
->>>>>>> 832d982538c7f6d0b5bdf02c6298f3c6cdd22d74
 		box.style.width = 80 + "%";
 	else if(box != null && window.innerWidth > 500)
 		box.style.width = 50 + "%";
