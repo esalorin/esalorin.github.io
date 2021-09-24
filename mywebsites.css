@@ -140,7 +140,8 @@ body			{
 				margin: 30px auto 0px auto;
 				box-shadow: 3px 3px 5px rgb(131, 131, 131);
 				}
-.project video	{
+.project video,
+.project img		{
 				width: 100%;
 				height: auto;
 				}
