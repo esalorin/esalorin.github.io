@@ -1,3 +1,3 @@
 # esalorin.github.io (www.eenakatariina.com)
 
-Making websites where I can tell a but more about my projects
+My own websites where I'll tell a bit about me and my projects.
