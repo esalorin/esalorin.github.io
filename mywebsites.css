@@ -1,6 +1,8 @@
 body			{
-				font-family: 'Courier New', Courier, monospace;
-				background-color: whitesmoke;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+				'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+				sans-serif;
+				background-color: rgb(250, 250, 250);
 				padding: 50px 20px 50px 20px;
 				}
 #topmenu		{
@@ -48,7 +50,7 @@ body			{
 #elemlink:active	{
 				transition: 0.2s;
 				font-size: calc(20px + 1vw);
-				color: palevioletred;
+				color: rgb(95, 157, 199);
 				}
 #elemlink:link,
 #elemlink:visited		{
@@ -62,14 +64,14 @@ body			{
 				}
 .current a:link,
 .current a:visited		{
-				color: palevioletred;
+				color: rgb(95, 157, 199);
 				text-decoration: none;
 				}
 .current a:hover,
 .current a:active	{
 				transition: 0.2s;
 				font-size: calc(20px + 1vw);
-				color: palevioletred;
+				color: rgb(95, 157, 199);
 				}
 .menutext		{
 				text-align: center;
@@ -84,8 +86,9 @@ body			{
 				}
 .bgphoto		{
 				margin: auto;
+				border-radius: 5px;
 				padding: 100px 50px 90px 90px;
-				box-shadow: 3px 3px 5px rgb(102, 102, 102);
+				box-shadow: 1px 1px 4px rgb(102, 102, 102);
 				max-width: 1200px;
 				background-image: url("content/mac.jpeg");
 				position: relative;
@@ -95,6 +98,7 @@ body			{
 				}
 .bgphoto::before	{
 				content: '';
+				border-radius: 5px;
 				position: absolute;
 				top: 0px;
 				right: 0px;
@@ -104,6 +108,7 @@ body			{
 				}
 #welcome		{
 				padding: 50px 30px 20px 30px;
+				border-radius: 5px;
 				margin: 20px auto;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -129,16 +134,17 @@ body			{
 				font-size: calc(18px + 1vw);
 				font-weight: normal;
 				text-align: center;			
-				color: palevioletred;
+				color: rgb(95, 157, 199);
 				}
 .project		{
 				background-color: white;
 				padding: 30px 30px 20px 30px;
+				border-radius: 5px;
 				max-width: 1200px;
 				position: relative;
 				font-size: calc(8px + 1vw);
 				margin: 30px auto 0px auto;
-				box-shadow: 3px 3px 5px rgb(131, 131, 131);
+				box-shadow: 1px 1px 4px rgb(131, 131, 131);
 				}
 .project video,
 .project img		{
@@ -157,7 +163,7 @@ body			{
 				font-size: calc(20px + 1vw);
 				font-weight: normal;
 				text-align: center;			
-				color: palevioletred;
+				color: rgb(95, 157, 199);
 				animation: name 1s forwards;
 				}
 .biggerabout	{
@@ -177,6 +183,7 @@ body			{
 				padding: 20px 20px 20px 20px;
 				margin-left: 20px;
 				margin-bottom: 10px;
+				border-radius: 5px;
 				text-align: justify;
 				width: 50%;
 				min-width: 200px;
@@ -186,11 +193,13 @@ body			{
 #me				{
 				float: left;
 				width: 40%;
+				border-radius: 5px;
 				max-width: 400px;
 				animation: photo 1s ease-out forwards;
 				}
 #story			{
 				padding: 30px 30px 20px 30px;
+				border-radius: 5px;
 				margin: auto;
 				background-repeat: no-repeat;
 				background-size: cover;
