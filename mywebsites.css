@@ -231,9 +231,9 @@ body			{
 				50% {opacity: 0;}
 				100% {opacity: 1;}
 				}
-/*@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 	.imgdiv {
 	 	max-width: 600px;
 		display:flex;
 	}
-  }*/
+  }
