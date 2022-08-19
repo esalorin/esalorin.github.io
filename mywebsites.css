@@ -142,6 +142,7 @@ body			{
 				border-radius: 5px;
 				max-width: 1200px;
 				position: relative;
+				display:inline;
 				font-size: calc(8px + 1vw);
 				margin: 30px auto 0px auto;
 				box-shadow: 1px 1px 4px rgb(131, 131, 131);
@@ -230,3 +231,9 @@ body			{
 				50% {opacity: 0;}
 				100% {opacity: 1;}
 				}
+@media only screen and (max-width: 1200px) {
+	.imgdiv {
+	 	max-width: 600px;
+		display:flex;
+	}
+  }
