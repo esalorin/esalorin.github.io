@@ -125,17 +125,4 @@ function changemode($dark) {
 			elementExists.style.backgroundColor = "rgba(" + 90 + "," + 90 + "," + 90 + "," + 0.7 + ")";
 	}
 }
-window.addEventListener('resize', function(){
-	var box = document.getElementById("aboutme");
-	if (box != null && window.innerWidth <= 500)
-		box.style.width = 80 + "%";
-	else if(box != null && window.innerWidth > 500)
-		box.style.width = 50 + "%";
-});
-window.addEventListener('load', function(){
-	var box = document.getElementById("aboutme");
-	if (box != null && window.innerWidth <= 500)
-		box.style.width = 80 + "%";
-	else if(box != null && window.innerWidth > 500)
-		box.style.width = 50 + "%";
-});
+

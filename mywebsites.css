@@ -3,8 +3,12 @@ body			{
 				'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
 				sans-serif;
 				background-color: rgb(250, 250, 250);
-				padding: 50px 20px 50px 20px;
+				padding: 50px 0px;
+				margin:0;
 				}
+p				{
+				color: rgb(32, 32, 32);
+}
 #topmenu		{
 				width:100%;
 				height: calc(25px + 1vw);
@@ -43,7 +47,7 @@ body			{
 				font-size: calc(16px + 1vw);
 				}
 #elemlink	{
-	color:black;
+	color:rgb(32, 32, 32);
 	text-decoration: none;
 }
 #elemlink:hover,
@@ -54,7 +58,7 @@ body			{
 				}
 #elemlink:link,
 #elemlink:visited		{
-				color: black;
+				color: rgb(32, 32, 32);;
 				text-decoration: none;
 				}
 .current			{
@@ -81,24 +85,24 @@ body			{
 				text-decoration: underline;
 				}
 .link			{
-				color: black;
+				color: rgb(95, 157, 199);
 				text-decoration: underline;
 				}
 .bgphoto		{
-				margin: auto;
-				border-radius: 5px;
+				margin: 0;
+				overflow: hidden;
 				padding: 100px 50px 90px 90px;
 				box-shadow: 1px 1px 4px rgb(102, 102, 102);
-				max-width: 1200px;
-				background-image: url("content/mac.jpeg");
+				max-width: 2000px;
 				position: relative;
+				background-position: center;
+				background-image: url("content/mac.jpeg");
 				background-repeat: no-repeat;
 				background-size: cover;
 				animation: mac 1s ease-out forwards;
 				}
 .bgphoto::before	{
 				content: '';
-				border-radius: 5px;
 				position: absolute;
 				top: 0px;
 				right: 0px;
@@ -107,15 +111,15 @@ body			{
 				background: rgba(37, 37, 37, 0.6);
 				}
 #welcome		{
-				padding: 50px 30px 20px 30px;
+				padding: 30px 50px 20px 50px;
 				border-radius: 5px;
-				margin: 20px auto;
+				margin:auto;
 				background-repeat: no-repeat;
 				background-size: cover;
 				height: 100%;
 				background: rgba(235, 235, 235, 0.7);
 				position: relative;
-				max-width: 1200px;
+				max-width: 2000px;
 				}
 .biggerwhite	{
 				color: white;
@@ -125,7 +129,7 @@ body			{
 				animation: name 1s forwards;
 				}
 .black			{
-				color: black;
+				color: rgb(32, 32, 32);
 				font-size: calc(8px + 1vw);
 				position: relative;
 				font-weight: normal;
@@ -138,15 +142,16 @@ body			{
 				}
 .project		{
 				background-color: white;
-				padding: 30px 30px 20px 30px;
+				padding: 30px 50px 20px 50px;
 				border-radius: 5px;
-				max-width: 1200px;
+				max-width: 2000px;
+				text-align: justify;
 				position: relative;
 				display:block;
 				font-size: calc(8px + 1vw);
-				margin: 30px auto 0px auto;
-				box-shadow: 1px 1px 4px rgb(131, 131, 131);
+				margin: 0px auto;
 				}
+.bg-project		{background-color:  rgba(235, 235, 235, 0.7);}
 .project video,
 .project img		{
 				width: 100%;
@@ -154,8 +159,8 @@ body			{
 				}
 .myphoto		{
 				margin: 0px auto 20px auto;
-				padding: 10px 10px 10px 10px;
-				max-width: 1200px;
+				padding: 10px 10px 10px 10%;
+				max-width: 2000px;
 				position: relative;
 				overflow: auto;
 				height: auto;
@@ -168,7 +173,7 @@ body			{
 				animation: name 1s forwards;
 				}
 .biggerabout	{
-				color: black;
+				color: rgb(32, 32, 32);
 				font-size: calc(12px + 1vw);
 				font-weight: normal;
 				}
@@ -176,37 +181,48 @@ body			{
 				font-size: calc(18px + 1vw);
 				font-weight: normal;
 				text-align: center;			
-				color: black;
+				color: rgb(32, 32, 32);
 				animation: name 2s forwards;
 				}
 #aboutme		{
 				background-color: rgba(255, 255, 255, 0.7);
-				padding: 20px 20px 20px 20px;
-				margin-left: 20px;
-				margin-bottom: 10px;
-				border-radius: 5px;
+				padding: 10px 30px 20px 10%;
+				margin: 0px;
 				text-align: justify;
-				width: 50%;
-				min-width: 200px;
-				float: right;
 				position: relative;
+				background-image: url("content/laptop.jpeg");
+				background-size: cover;
+				background-position: top;
+				max-width: 2000px;
+				min-width: 200px;
 				}
+				#aboutme::before	{
+					content: '';
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					bottom: 0px;
+					left: 0px;
+					background: rgba(37, 37, 37, 0.6);
+					}
 #me				{
 				float: left;
 				width: 40%;
-				border-radius: 5px;
 				max-width: 400px;
 				animation: photo 1s ease-out forwards;
 				}
 #story			{
-				padding: 30px 30px 20px 30px;
+				padding: 30px 50px 20px 50px;
 				border-radius: 5px;
 				margin: auto;
+				position: relative;
+				text-align: justify;
 				background-repeat: no-repeat;
 				background-size: cover;
 				height: 100%;
+				
 				background: rgba(206, 206, 206, 0.7);
-				max-width: 1200px;
+				max-width: 2000px;
 				}
 #mode	{
 				width: 40px;
